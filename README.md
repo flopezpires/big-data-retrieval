@@ -1,3 +1,1 @@
-Data sets and scripts for Coursera Big Data Specialization. 
-
-https://www.coursera.org/specializations/bigdata
+Simplified repository focused on Big Data Retrieval.
