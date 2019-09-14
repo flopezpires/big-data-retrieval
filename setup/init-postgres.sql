@@ -33,6 +33,6 @@ delete from buyclicks;
 delete from gameclicks;
 delete from adclicks;
 
-COPY buyclicks FROM '/home/cloudera/Downloads/big-data-3/buy-clicks.csv' DELIMITER ',' CSV HEADER;
-COPY gameclicks FROM '/home/cloudera/Downloads/big-data-3/game-clicks.csv' DELIMITER ',' CSV HEADER;
-COPY adclicks FROM '/home/cloudera/Downloads/big-data-3/ad-clicks.csv' DELIMITER ',' CSV HEADER;
+COPY buyclicks FROM '/home/cloudera/Downloads/big-data-retrieval-master/buy-clicks.csv' DELIMITER ',' CSV HEADER;
+COPY gameclicks FROM '/home/cloudera/Downloads/big-data-retrieval-master/game-clicks.csv' DELIMITER ',' CSV HEADER;
+COPY adclicks FROM '/home/cloudera/Downloads/big-data-retrieval-master/ad-clicks.csv' DELIMITER ',' CSV HEADER;

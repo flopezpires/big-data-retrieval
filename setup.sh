@@ -28,7 +28,7 @@ sudo chkconfig --level 345 postgresql on
 sudo service postgresql start
 
 # set permissions so postgres can read csv files
-chmod 755 /home/cloudera/Downloads/big-data-3
+chmod 755 /home/cloudera/Downloads/big-data-retrieval-master
 
 # create postgres account for cloudera user
 sudo -u postgres psql -c "CREATE USER cloudera"
@@ -62,4 +62,3 @@ echo "export PYSPARK_DRIVER_PYTHON=jupyter"  >> ~/.bashrc
 cd mongodb
 ./setup.sh
 cd ..
-
